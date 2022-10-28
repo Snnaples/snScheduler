@@ -1,11 +1,9 @@
 # snScheduler
 Callback scheduler
 
-
 USAGE:
+```lua
 
-<sup>
-	
 scheduleUserCallback(user_id, { 
     days = 5, hour = 14, minute = 30,
 	date = os.date'*t',
@@ -33,5 +31,5 @@ scheduleServerCallback{
 
 	varargs = {1,5,2} -- arguments passed -> fnString
 
-}
-</sup>
+}```
+
