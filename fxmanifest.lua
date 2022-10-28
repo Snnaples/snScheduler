@@ -8,7 +8,7 @@ description [[
   v1.0
 ]]
 
-server_only (1)
+server_only (1); lua54('TC168')
 
 author 'Snnaples'
 
