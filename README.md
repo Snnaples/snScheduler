@@ -17,7 +17,6 @@ scheduleUserCallback(user_id, {
 
 scheduleServerCallback{
 	label = 'Callback Name',
-	
 	days = 0,
 	hour = 14,
 	minute = 30,
@@ -28,7 +27,5 @@ scheduleServerCallback{
 			print"Hello, World!"
 		end
 	]],
-
 	varargs = {1,5,2} -- arguments passed -> fnString
-
 }
